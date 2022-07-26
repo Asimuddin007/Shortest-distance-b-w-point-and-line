@@ -28,10 +28,10 @@ def distance_between_point_and_line(pt1, pt2) -> tuple[list, float] | None:
 
 
 
-for l in lines:
-   P, Q = l
-   print(P, Q)
-   val = distance_between_point_and_line(P, Q)
+for i in lines:
+   X, Y = i
+   print(X, Y)
+   val = distance_between_point_and_line(X, Y)
    distance.append(val)
 
 
